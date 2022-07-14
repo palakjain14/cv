@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details:</h1>
+    <ul>
+        <li>Phone No: +91-9023456781</li>
+        <li>Email ID: palak002jain@gmail.com</li>
+        <li>Address: xyz, abc, pqr</li>
+    </ul>
+    <hr>
+    <form action="mailto:palak002jain@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name: </label>
+        <input type="text" name="yourName" value=""><br>
+        <!--label>Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="" value=""><br-->
+        <label>Your Email: </label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message: </label><br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+        <input type="submit" name=""><br>
+        <!--input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <input type="date">
+        <input type="color" name="" value=""><br>
+        <input type="datetime-local"><br>
+        <label>Email: </label>
+        <input type="email"><br>
+        <input type="file"><br>
+        <input type="hidden">
+        <input type="image" src="data:image/png;base64,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" height="100" width="150">
+        <input type="month"><br>
+        <label>Number: </label>
+        <input type="number">
+        <input type="range"-->
+    </form>
+</body>
+</html>
